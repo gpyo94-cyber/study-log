@@ -5,8 +5,8 @@ merge commit = a commit with 2 parents, created by joining two divergent histori
 rule : work only on one side (local), then push. Don't edit both local and GitHub
 pkill chrome - process kill (when chrome was stuck)
 
-block elment : <p> , <h1~h6>
-inline element : <em> <strong>
+block elment : '<p>' , '<h1~h6>'
+inline element : '<em> <strong>'
 headings (h1~h6) have 6 levels
 strong : bold + emphasis (강조)
 em : italic + emphasis (강조)

@@ -1,0 +1,33 @@
+# TIL 2026-08-12 — CSS Selectors
+
+## What I did
+- Finished "Intro to CSS" lesson (The Odin Project) — passed the knowledge check
+- CSS practice: 9 missions using every selector type on a practice page
+- Watched web history lectures (frontend/backend/DB/deploy/AI) — keeping notes as a map, not for memorizing
+
+## What I learned
+- Selector types: type (`h2`), universal (`*`), class (`.price`),
+  ID (`#footer`), grouping (`h1, h2`), chaining (`.card.recommended`),
+  descendant (`#footer .desc`)
+- **One space changes everything:**
+  - `.a.b`  = one element that has BOTH classes ("one body")
+  - `.a .b` = element `.b` INSIDE element `.a` ("parent and child")
+- `#hero.dark` = chaining works with id + class too
+- "syntax" means: the rule of HOW to write something
+- If the same property is declared twice, the later rule wins (= cascade, next lesson)
+- Absolute links must start with the protocol: `https://` —
+  without it the browser treats it as a relative path (404)
+- Finally typed this from memory after 4 fails:
+  `<a href="https://google.com" target="_blank" rel="noopener noreferrer">`
+  - target = where to open, `_blank` = new tab
+  - rel = relationship, two values in ONE pair of quotes
+  - no+opener (block access), no+referrer (hide origin, r×3)
+
+## Mistakes I made (and fixed myself)
+- Submitted the broken descendant version for the chaining mission
+- Wrote `.title.primary` when `title` was an id → `#title.primary`
+- Split rel into two attributes → one attribute, two values
+
+## Next
+- Daily warm-up: type the anchor line once (5 days, then final retest)
+- Next lesson: The Cascade

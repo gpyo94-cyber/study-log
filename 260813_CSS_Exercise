@@ -1,0 +1,32 @@
+# TIL 2026-08-13 — Official CSS Exercises
+
+## What I did
+- Set up Live Server in VS Code — my page now runs on localhost:5500
+  (localhost = "this computer itself", 5500 = the port)
+- Forked & cloned Odin's css-exercises repo (my second fork — now I know why:
+  fork gives me push rights to my own copy)
+- Completed all 5 intro-to-css exercises: css-methods, class-id-selectors,
+  grouping, chaining, descendant combinator
+- Pushed my solutions to my fork — push worked because it's MY copy
+
+## What I learned
+- The repo contains exercises for the whole curriculum — only open the folder
+  the current lesson tells you to (I got lost in advanced-html-css at first)
+- Quote rules in font-family: quotes wrap ONE multi-word font name only,
+  not the whole list: `Verdana, "DejaVu Sans", sans-serif`
+- Every separator in a font list must be a comma — a missing comma kills
+  the whole declaration silently
+- `height: auto` + fixed width = image keeps its proportions
+- Boilerplate meta tags: `X-UA-Compatible` is a fossil for dead IE;
+  `viewport` makes pages render properly on phones (essential)
+- VS Code: Ctrl+Shift+P = command palette (search any feature by name)
+
+## Mistakes I made (and fixed)
+- Put inline style on a wrapper div instead of the button itself
+- Wrote `font-family: bold` (bold is a font-weight value, not a font name)
+- Used a class for an element that said "I'm one ID."
+- Searched "Simple Browser" with quotes included in the search box lol
+
+## Next
+- The Cascade lesson
+- Anchor drill day 3 (with https:// this time)

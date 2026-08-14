@@ -1,0 +1,34 @@
+# TIL 2026-08-14 — The Cascade & DevTools
+
+## What I did
+- Anchor drill day 3: fixed https://, wobbled on noreferrer once, then clean
+- Ran an experiment that DISPROVED my own theory ("the latest rule wins") —
+  a class selector beat a type selector that came later (red, not blue)
+- Finished The Cascade lesson + passed all quiz questions
+- Solved the official cascade-fix exercise and compared with the official solution —
+  my `.text.child` fix was actually MORE robust (order-independent)
+- Finished Inspecting HTML and CSS lesson (Chrome DevTools)
+- Locked my roadmap: web fundamentals → AI layer → remote income.
+  Bootcamp = pass (wrong track). Full-time study from September.
+
+## What I learned
+- The cascade is a 3-round tournament:
+  1. Direct targeting vs inherited → directly targeted rules ALWAYS win
+     (inherited styles don't even reach round 2)
+  2. Specificity: inline > ID > class > type — compared by RANK first,
+     like Olympic medals: 1 class beats 100 types, 1 ID beats 100 classes
+  3. Rule order: ONLY the tie-breaker of tie-breakers — last rule wins
+- My old belief "latest wins" wasn't wrong, it was just the LAST question
+  the judge asks, not the first
+- DevTools: F12 → Elements panel shows the DOM tree
+  (the browser's LIVE map of the page, not my source file)
+- A strikethrough in the Styles panel = a rule that LOST the tournament —
+  not invalid, just overridden. Best debugging clue in CSS
+- element.style box = inline style = top specificity rank,
+  which is why edits there always show up instantly
+- English reading rule: always look up TECH terms; skip general words
+  if the sentence still makes sense; look one up after its 3rd appearance
+
+## Next
+- Anchor drill day 4 (target: perfect on first try)
+- The Box Model
